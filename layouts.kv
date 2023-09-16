@@ -1,0 +1,35 @@
+Interface:
+    cols: 1
+    padding: 20
+    Label:
+        text: "Kitab axtar"
+        font_size: "31sp"
+        size: self.texture_size
+        size_hint: 1, None
+        halign: "center"
+    Interface:
+        cols: 2
+        TextInput:
+            id: kitab_adi
+            size_hint: 0.5, None
+            height: 50
+            hint_text: "kitab adı daxil edin"
+            multiline: False
+            text: "kimyagər"
+        Button:
+            text: "Axtar"
+            size_hint: None, None
+            height: 50
+            on_press: root.axtar()
+        Label:
+            id: libraff
+            text: "Libraff"
+            font_size: "31sp"
+            size: self.texture_size
+            size_hint: None, None
+
+
+
+
+
+
